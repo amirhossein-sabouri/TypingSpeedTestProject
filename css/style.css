@@ -9,8 +9,26 @@
 *{
     font-family: "BYekan";
 }
-
-
+.test_text{
+  
+    font-size: x-large;
+    direction: rtl;
+    float: right;
+    width: 30%;
+    background-color: lightblue;
+}
+#origin_test{
+    direction: rtl;
+    padding-bottom: 100px;
+    width: 40%;
+    margin-top: 100px;
+    background-color: rgb(12, 246, 12);
+}
+.test-wraper{
+    display: block;
+    background-color: brown;
+    text-align: center;
+}
 .upperText{
     background-color: rgb(4, 26, 70);
     font-size: xx-large;
@@ -28,4 +46,95 @@ width: 100%;
 }
 .text_box_in{
     color: white;
+}
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Mada', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+.test-area {
+    margin-bottom: 4em;
+    padding: 0 2em;
+}
+.test-wrapper {
+    border: 10px solid grey;
+    border-radius: 10px;
+    
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: #ededed;
+    margin-top: 7px;
+    color: rgb(15, 15, 147);
+    
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.test-wrapper {
+    height: 200%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.timer {
+    font-size: 3em;
+    /* font-weight: bold; */
+}
+.pattern{
+    direction: rtl;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#reset{
+    font-size: x-large;
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(61, 29, 114);
+    color: white;
+    transition: all ease 1s;
+}
+#reset:hover{
+   background-color: rgba(90, 35, 192, 0.6);
+
+}
+
+#change_text{
+
+            
+}
+    
+
+@keyframes animation{
+    50%{
+    /*first element is in  x axis second element is in y axis and third one is             /* the first element is movement in x axis second is movement in y axis the third one is transparency and last one is its color transparency and last one is border type */
+    box-shadow: 7px 7px 5px 5px black;                
+    }
+
 }

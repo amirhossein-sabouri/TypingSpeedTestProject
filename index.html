@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/util.css">
-
-</head>
-<body>
-    <div class="upperText">
-        تست سنجش سرعت تایپ
-    </div>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/util.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="upperText">تست سنجش سرعت تایپ</div>
     <div class="text_box">
-        <pre class="text_box_in">    
+      <pre class="text_box_in">
             سنجش سرعت تایپ به گونه ای است که 
              با اغاز تایپ کردن زمان سنج به طور خودکار شروع به کار می کند 
              و با تکمیل جمله نمونه سرعت اندازه گرفته و نمایش داده می شود
         </pre>
     </div>
-    <div class="timer">
+    <section class="test-area">
+        <div class="pattern">
+            متن الگو :
+        </div>
+        <div>
+            <!-- <button class = "change_lang"><i class="material-icons"></i></button> -->
+            <button class = "change-text count_click">
+                <i class="material-icons pos-relative top-7">compare_arrows</i>
+                تغییر متن
+            </button>      
+        </div>
+        <div id="origin-text">
+            <p>The text to test.</p>
+        </div><!-- #origin-text -->
 
-    </div>
-    <script src="/js/script.js">
+        <div class="test-wrapper">
+            <textarea id="test-area" name="textarea" rows="6" placeholder=" با تایپ اولین حرف تایمر شمارش را آغاز میکند"></textarea>
+        </div><!-- .test-wrapper -->
 
-    </script>
-</body>
+        <div class="meta">
+            <section id="clock">
+            <div class="timer">00:00:00</div></section>
+           <button type="button" id="reset">از نو</button>   
+         </div>  
+        
+    </section>
+
+    <script src="/js/script.js"></script>
+        </body>
 </html>
