@@ -3,11 +3,15 @@
 > سرعت تایپ خود را اندازه بگیرید — زیبا، ساده و دقیق
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-استایل‌دهی_پویا-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![فارسی](https://img.shields.io/badge/پشتیبانی-فارسی-red)]()
-
+[![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue)]()
 ---
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/20c5ce71-1bf4-4629-9a2a-b318ff1cb297" width="600"/>
+</div>
 ## 📖 درباره پروژه
 
 **تایپ‌سنج** یک ابزار مدرن و جذاب برای اندازه‌گیری سرعت تایپ است.  
